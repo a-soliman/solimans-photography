@@ -1,0 +1,159 @@
+body {
+	background-color: #ECECEC; 
+	margin: 0;
+	font-family: 'Lobster Two', cursive;
+}
+header {
+	margin: 20px 3%;
+	border-bottom: 2px solid black;
+	padding-bottom: 70px;
+}
+.logo {
+	float: left;
+}
+nav {
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 10px;
+
+}
+nav ul li a {
+	text-decoration: none;
+	padding: 0 5px;
+	color: #4B4F4F;
+}
+.content {
+	text-align: center;
+	margin: 70px auto;
+	margin-bottom: 20px;
+	color: #4B4F4F;
+}
+.content h1 span {
+	color: #EE9FAD;
+}
+.content p {
+	margin-bottom: 50px;
+}
+.content img {
+	border-radius: 30px;
+}
+#about, #work {
+	margin: 35px 3%;
+	margin-top: 0;
+}
+#about h3, #work h3 {
+	text-align: center;
+	color: #EE9FAD;
+}
+#about p, #work p {
+	color: #4B4F4F;
+}
+#about {
+	float: left;
+}
+
+#work {
+	float: right;
+}
+.work-sec {
+	margin-top: 35px;
+	clear: both;
+}
+.work-sec ul li {
+	display: inline-block;
+	padding: 0px;
+	margin: 20px 2%;
+	
+}
+.work-sec ul li div {
+	width: 100%;
+	height: 230px;	
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+.work-sec ul li div img {
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 0;
+}
+.work-sec ul li div h4, 
+.work-sec ul li div p {
+	margin-top: 5px;
+	margin-left: 2%;
+	text-align: left;
+
+}
+.work-sec ul li div h4 {
+	color: #4B4F4F;
+}
+.work-sec ul li div p {
+	margin-top: -20px;
+	color: #EE9FAD;	
+}
+.work-sec h1 {
+	color: #EE9FAD;	
+	text-align: center;
+}
+footer {
+	padding-top: 30px;
+	background-color: #2D2D2D;
+}
+footer #contact{
+	margin-left: 4%;
+	margin-right: 0;
+}
+footer #contact h2 {
+	margin-bottom: 0;
+	color: #EE9FAD;	
+}
+footer #contact input {
+	margin-top: 5px;
+	width: 35%;
+}
+footer #contact textarea {
+	margin-top: 5px;
+	width: 35%;
+}
+footer #contact button {
+	border: none;
+	background: none;
+	color: #fff;
+	cursor: pointer;
+	padding-bottom: 30px;
+}
+.social {
+	margin:  0 10px;
+	margin-top: 130px;
+	float: right;
+}
+.social a {
+	color: #2D2D2D;				
+}
+.social li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px;
+}
+
+.social .fa-facebook {
+	background-color: 	#EE9FAD;	
+	padding: 			5px 8px;
+	border-radius: 		50%;
+}
+.social .fa-linkedin {
+	background-color: 	#EE9FAD;	
+	padding: 			5px;
+	border-radius: 		50%;
+}
+.social .fa-twitter {
+	background-color: 	#EE9FAD;	
+	padding: 			5px;
+	border-radius: 		50%;
+}.social .fa-google-plus {
+	background-color: 	#EE9FAD;	
+	padding: 			5px;
+	border-radius: 		50%;
+}
